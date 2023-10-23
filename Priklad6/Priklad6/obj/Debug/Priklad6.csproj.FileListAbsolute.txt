@@ -8,3 +8,13 @@ G:\PRG\C#\Priklad6\Priklad6\obj\Debug\Priklad6.csproj.GenerateResource.cache
 G:\PRG\C#\Priklad6\Priklad6\obj\Debug\Priklad6.csproj.CoreCompileInputs.cache
 G:\PRG\C#\Priklad6\Priklad6\obj\Debug\Priklad6.exe
 G:\PRG\C#\Priklad6\Priklad6\obj\Debug\Priklad6.pdb
+D:\Antonín Štolfa\PRG\C#\Priklad6_Formulare\Priklad6\Priklad6\bin\Debug\Priklad6.exe.config
+D:\Antonín Štolfa\PRG\C#\Priklad6_Formulare\Priklad6\Priklad6\bin\Debug\Priklad6.exe
+D:\Antonín Štolfa\PRG\C#\Priklad6_Formulare\Priklad6\Priklad6\bin\Debug\Priklad6.pdb
+D:\Antonín Štolfa\PRG\C#\Priklad6_Formulare\Priklad6\Priklad6\obj\Debug\Priklad6.csproj.AssemblyReference.cache
+D:\Antonín Štolfa\PRG\C#\Priklad6_Formulare\Priklad6\Priklad6\obj\Debug\Priklad6.Form1.resources
+D:\Antonín Štolfa\PRG\C#\Priklad6_Formulare\Priklad6\Priklad6\obj\Debug\Priklad6.Properties.Resources.resources
+D:\Antonín Štolfa\PRG\C#\Priklad6_Formulare\Priklad6\Priklad6\obj\Debug\Priklad6.csproj.GenerateResource.cache
+D:\Antonín Štolfa\PRG\C#\Priklad6_Formulare\Priklad6\Priklad6\obj\Debug\Priklad6.csproj.CoreCompileInputs.cache
+D:\Antonín Štolfa\PRG\C#\Priklad6_Formulare\Priklad6\Priklad6\obj\Debug\Priklad6.exe
+D:\Antonín Štolfa\PRG\C#\Priklad6_Formulare\Priklad6\Priklad6\obj\Debug\Priklad6.pdb

@@ -24,6 +24,7 @@ namespace Priklad6
         Button popredi;
         Button pozadi;
         Button font;
+        ComboBox combicko;
         Color fore = Color.Black;
         Color back = Color.White;
         Font pismo = null;
@@ -84,6 +85,14 @@ namespace Priklad6
             font.Text = "Font";
             font.Click += font_Click;
 
+            string[] moznosti = new string[9] { "TopLeft", "TopCenter", "TopRight", "MiddleLeft", "MiddleCenter", "MiddleRight", "BottomLeft", "BottomCenter", "BottomRight" };
+
+            combicko = new ComboBox();
+            combicko.Location = new Point(80, 40);
+            combicko.Size = new Size(70, 20);
+            combicko.Text = "*-Vyberte-*";
+            combicko.Items.AddRange(moznosti);
+
             Uloz = new Button();
             Uloz.Location = new Point(20, 160);
             Uloz.Size = new Size(70, 20);
@@ -106,6 +115,7 @@ namespace Priklad6
             form2.Controls.Add(font);
             form2.Controls.Add(Uloz);
             form2.Controls.Add(Zrus);
+            form2.Controls.Add(combicko);
 
             if (form2.ShowDialog() == DialogResult.OK)
             {
@@ -145,6 +155,55 @@ namespace Priklad6
             button1.ForeColor = fore;
             button1.BackColor = back;
             button1.Font = pismo;
+            switch(combicko.Text)
+            {
+                case "TopLeft":
+                    {
+                        button1.TextAlign = ContentAlignment.TopLeft;
+                        break;
+                    }
+                case "TopCenter":
+                    {
+                        button1.TextAlign = ContentAlignment.TopCenter;
+                        break;
+                    }
+                case "TopRight":
+                    {
+                        button1.TextAlign = ContentAlignment.TopRight;
+                        break;
+                    }
+                case "MiddleLeft":
+                    {
+                        button1.TextAlign = ContentAlignment.MiddleLeft;
+                        break;
+                    }
+                case "MiddleCenter":
+                    {
+                        button1.TextAlign = ContentAlignment.MiddleCenter;
+                        break;
+                    }
+                case "MiddleRight":
+                    {
+                        button1.TextAlign = ContentAlignment.MiddleRight;
+                        break;
+                    }
+                case "BottomLeft":
+                    {
+                        button1.TextAlign = ContentAlignment.BottomLeft;
+                        break;
+                    }
+                case "BottomCenter":
+                    {
+                        button1.TextAlign = ContentAlignment.BottomCenter;
+                        break;
+                    }
+                case "BottomRight":
+                    {
+                        button1.TextAlign = ContentAlignment.BottomRight;
+                        break;
+                    }
+
+            }
         }
         private void Zrus_Click(object sender, EventArgs e)
         {
