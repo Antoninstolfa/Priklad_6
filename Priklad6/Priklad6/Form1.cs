@@ -22,11 +22,11 @@ namespace Priklad6
         Button Uloz;
         Button Zrus;
         Button popredi;
-        Button pozadi;
+        Button pozadi;  
         Button font;
         ComboBox combicko;
-        Color fore = Color.Black;
-        Color back = Color.White;
+        Color fore = Color.White;
+        Color back = Color.Black;
         Font pismo = null;
         public Form1()
         {
@@ -43,19 +43,17 @@ namespace Priklad6
 
             fontdialog1 = new FontDialog();
 
-            colordialog1 = new ColorDialog();
-
             numericUpDown1 = new NumericUpDown();
             numericUpDown1.Location = new Point(20, 40);
             numericUpDown1.Size = new Size(50, 20);
             numericUpDown1.Minimum = 50;
-            numericUpDown1.Maximum = 1000;
+            numericUpDown1.Maximum = 500;
 
             numericUpDown2 = new NumericUpDown();
             numericUpDown2.Location = new Point(20, 70);
             numericUpDown2.Size = new Size(50, 20);
             numericUpDown2.Minimum = 50;
-            numericUpDown2.Maximum = 1000;
+            numericUpDown2.Maximum = 500;
 
             label1 = new Label();
             label1.Location = new Point(5, 40);
@@ -125,18 +123,19 @@ namespace Priklad6
 
         private void popredi_Click(object sender, EventArgs e)
         {
-            if(colordialog1.ShowDialog() == DialogResult.OK)
+            colordialog1 = new ColorDialog();
+            if (colordialog1.ShowDialog() == DialogResult.OK)
             {
-                fore = colorDialog1.Color;
+                fore = colordialog1.Color;
             }
         }
 
         private void pozadi_Click(object sender, EventArgs e)
         {
-
+            colordialog1 = new ColorDialog();
             if (colordialog1.ShowDialog() == DialogResult.OK)
             {
-                back = colorDialog1.Color;
+                back = colordialog1.Color;
             }
         }
 
